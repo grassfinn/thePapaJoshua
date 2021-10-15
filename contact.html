@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<!-- Learn Input Validation -->
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="songs.html">Songs</a>
+            <a href="videos.html">Videos</a>
+            <a href="waifus.html">Favorite Waifus</a>
+        </nav>
+    </header>
+    <h1>Contact me</h1>
+    <form action=>
+        <input type="text" placeholder="Name"  name="name" required> <br>
+        <div>
+            <p>On a scale of 0 - 10, How cool is Josh?</p>
+            <input type="range" > 
+        </div>
+        <div>
+            <p>
+                <label for="hot">If you are hot give my your number</label>
+                <input  id="hot"  type="tel" placeholder="(###) ###-####" required> 
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="not-hot"  >If not, I will still take your number.</label>
+                <input id="not-hot" type="tel" placeholder="(###) ###-####" name="number" > 
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="furry">Are you a furry?</label>
+                <input id="furry" type="checkbox">
+            </p>
+            </div>
+        <div>
+            <p>
+
+                <label for="anime">Do you like anime?</label>
+                <input id="anime" type="checkbox">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="shrek2">Do you own Shrek 2 on DVD?</label>
+                <input id="shrek2" type="checkbox">
+            </p>
+        </div>
+        <input type="text" value="Hot Dogs or Tacos?"> 
+        <div>
+            <p>
+                <label for="secret"> Tell me a secret.</label>
+                <input id="secret" type="password"  placeholder="Make it saucy." name="secret" required> 
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="anything-else">Anything else you want to say to me?</label>
+                <input id="anything-else" type="text" placeholder="????"  > 
+            </p>
+        </div>
+        <p>If you are finished press submit.</p>
+        <button>Submit</button>
+        <input type="submit" name="submit" id="submit" value="Click Me">  
+    </form>
+      
+</body>
+</html>
