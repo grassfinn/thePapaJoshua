@@ -8,6 +8,7 @@
 </head>
 <!-- Learn Input Validation -->
 <body>
+    <!-- Navbar -->
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -17,12 +18,21 @@
         </nav>
     </header>
     <h1>Contact me</h1>
+    <!-- Name -->
     <form action=>
-        <input type="text" placeholder="Name"  name="name" required> <br>
+        <input type="text" placeholder="Name"  name="name" required>
+    <!-- email -->
+        <div>
+            <p>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </p>
+        </div>
+        <!-- Range -->
         <div>
             <p>On a scale of 0 - 10, How cool is Josh?</p>
             <input type="range" min="0" max="10" value="5" > 
         </div>
+        <!-- number -->
         <div>
             <p>
                 <label for="hot">If you are hot give my your number</label>
@@ -35,6 +45,7 @@
                 <input id="not-hot" type="tel" placeholder="(###) ###-####" name="number" > 
             </p>
         </div>
+        <!-- checkboxes -->
         <div>
             <p>
                 <label for="furry">Are you a furry?</label>
@@ -54,6 +65,7 @@
                 <input id="shrek2" type="checkbox">
             </p>
         </div>
+        <!-- text input -->
         <input  id="hotdog" type="text" value="Hot Dogs or Tacos?"> 
         <div>
             <p>
@@ -70,6 +82,7 @@
                 </p>
             </p>
         </div>
+        <!-- Buttons -->
         <p>If you are finished press submit.</p>
         <button>Submit</button>
         <input type="submit" name="submit" id="submit" value="Click Me">  
