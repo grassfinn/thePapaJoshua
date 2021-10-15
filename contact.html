@@ -21,7 +21,7 @@
         <input type="text" placeholder="Name"  name="name" required> <br>
         <div>
             <p>On a scale of 0 - 10, How cool is Josh?</p>
-            <input type="range" > 
+            <input type="range" min="0" max="10" value="5" > 
         </div>
         <div>
             <p>
@@ -54,7 +54,7 @@
                 <input id="shrek2" type="checkbox">
             </p>
         </div>
-        <input type="text" value="Hot Dogs or Tacos?"> 
+        <input  id="hotdog" type="text" value="Hot Dogs or Tacos?"> 
         <div>
             <p>
                 <label for="secret"> Tell me a secret.</label>
@@ -64,7 +64,10 @@
         <div>
             <p>
                 <label for="anything-else">Anything else you want to say to me?</label>
-                <input id="anything-else" type="text" placeholder="????"  > 
+                <p>
+                    <textarea id="anything-else" name="extra" rows="5" cols="30">  
+                    </textarea> 
+                </p>
             </p>
         </div>
         <p>If you are finished press submit.</p>
