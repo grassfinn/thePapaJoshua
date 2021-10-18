@@ -1,5 +1,31 @@
+
+body{
+    /* Cssfontstack website */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
+    font-size: 75px;
+    text-align: center;
+    text-decoration: underline;
     color: red;
     
 }
 
+h2{
+    text-align: center;
+    color:rgb(25, 21, 250)
+}
+h3{
+    text-align: justify;
+    color: #7384f1;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+}
+#outlets{
+    text-align: center;
+}
