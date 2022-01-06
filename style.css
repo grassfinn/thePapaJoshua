@@ -47,6 +47,7 @@ body {
   background-image: url(./pictures/rectangle.jpg);
   background-size: cover;
   background-repeat: round;
+  /* background-position: center; */
   position: absolute;
   top: 0px;
   right: 0px;
@@ -79,7 +80,25 @@ section {
 sup {
   color: red;
 }
-
+#jaylee{
+  max-width: 750px;
+}
+#melisa{
+  width: 30%;
+  height: 30%;
+}
+#david{
+  width: 30%;
+  height: 30%;
+}
+#elise{
+  width: 40%;
+  height: 40%;
+}
+#josiah{
+  width: 47%;
+  height: 47%;
+}
 /* a:hover{
   text-decoration: underline;
   font-weight: bolder;
