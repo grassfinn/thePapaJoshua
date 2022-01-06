@@ -18,9 +18,10 @@
         </nav>
     </header>
     <h1>Contact me</h1>
+    <p>* is a required field</p>
     <!-- Name -->
-    <form action=>
-        <input type="text" placeholder="Name"  name="name" required>
+    <form action="" method="get">
+        <input type="text" placeholder="Name"  name="name" required><sup>*</sup>
     <!-- email -->
         <div>
             <p>
@@ -36,7 +37,7 @@
         <div>
             <p>
                 <label for="hot">If you are hot give my your number</label>
-                <input  id="hot"  type="tel" placeholder="(###) ###-####" required> 
+                <input  id="hot"  type="tel" placeholder="(###) ###-####"> 
             </p>
         </div>
         <div>
@@ -48,29 +49,29 @@
         <!-- checkboxes -->
         <div>
             <p>
-                <label for="furry">Are you a furry?</label>
+                <label for="furry">Are you a furry?</label><sup>*</sup>
                 <input id="furry" type="checkbox">
             </p>
             </div>
         <div>
             <p>
 
-                <label for="anime">Do you like anime?</label>
+                <label for="anime">Do you like anime?</label><sup>*</sup>
                 <input id="anime" type="checkbox">
             </p>
         </div>
         <div>
             <p>
-                <label for="shrek2">Do you own Shrek 2 on DVD?</label>
+                <label for="shrek2">Do you own Shrek 2 on DVD?</label><sup>*</sup>
                 <input id="shrek2" type="checkbox">
             </p>
         </div>
         <!-- text input -->
-        <input  id="hotdog" type="text" value="Hot Dogs or Tacos?"> 
+        <input  id="hotdog" type="text" placeholder="Hot Dogs or Tacos?"> 
         <div>
             <p>
                 <label for="secret"> Tell me a secret.</label>
-                <input id="secret" type="password"  placeholder="Make it saucy." name="secret" required> 
+                <input id="secret" type="password"  placeholder="Make it saucy." name="secret" required><sup>*</sup> 
             </p>
         </div>
         <div>
