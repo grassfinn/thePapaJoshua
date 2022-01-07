@@ -25,59 +25,61 @@
             <h1>Contact me</h1>
             <p>is a required field <sup>*</sup> </p>
             <!-- Name -->
-            <form action="" method="get">
+            <form action="" method="post">
                 <input type="text" placeholder="Name"  name="name" required><sup>*</sup>
                 <!-- email -->
-                <div>
-                    <p>
+                <div class="form-field">
                         <input type="email" name="email" id="email" placeholder="Email">
-                    </p>
                 </div>
                 <!-- Range -->
-                <div>
+                <div class="form-field">
                     <p>On a scale of 0 - 10, How cool is Josh?</p>
                     <input type="range" min="0" max="10" value="5" > 
                 </div>
                 <!-- number -->
-                <div>
-                    <p>
+                <div class="form-field">
+                    
                         <label for="hot">If you are hot give my your number</label>
                         <input  id="hot"  type="tel" placeholder="(###) ###-####"> 
-                    </p>
-                </div>
+                    
+                </div class="form-field">
                 <div>
-                    <p>
                         <label for="not-hot"  >If not, I will still take your number.</label>
-                        <input id="not-hot" type="tel" placeholder="(###) ###-####" name="number" > 
-                    </p>
+                        <input id="not-hot" type="tel" placeholder="(###) ###-####" name="number" >
                 </div>
-                <!-- checkboxes -->
-                <div>
-                    <p>
+                <!-- radio -->
+                <!-- furry radio -->
+                <div class="form-field">
                         <label for="furry">Are you a furry?</label><sup>*</sup>
-                        <input id="furry" type="checkbox">
-                    </p>
+                        <input id="furry-yes" type="radio" value="furry-yes" name="furry" required> 
+                        <label for="furry-yes">Yes</label>
+                        <input id="furry-no" type="radio" value="furry-no" name="furry">
+                        <label for="furry-no">No</label>
                 </div>
-                <div>
-                    <p>
-                        
+                <!-- anime radio -->
+                <div class="form-field">   
                         <label for="anime">Do you like anime?</label><sup>*</sup>
-                        <input id="anime" type="checkbox">
-                    </p>
+                        <input id="anime-yes" type="radio" value="anime-yes" name="anime" required>
+                        <label for="anime-yes">Yes</label>
+                        <input id="anime-no" type="radio" value="anime-no" name="anime">
+                        <label for="anime-no">No</label>
                 </div>
-                <div>
-                    <p>
-                        <label for="shrek2">Do you own Shrek 2 on DVD?</label><sup>*</sup>
-                        <input id="shrek2" type="checkbox">
-                    </p>
+                <!-- Shrek 2 radio -->
+                <div class="form-field">
+                        <label for="shrek2">Do you own shrek 2 on DVD</label><sup>*</sup>
+                        <input id="shrek2-yes" type="radio" value="shrek2-yes" name="shrek2" required>
+                        <label for="shrek2-yes">Yes</label>
+                        <input id="shrek2-no" type="radio" value="shrek2-no" name="shrek2">
+                        <label for="shrek2-no">No</label>
+                    
                 </div>
                 <!-- text input -->
-                <input  id="hotdog" type="text" placeholder="Hot Dogs or Tacos?"> 
-                <div>
-                    <p>
+                <div class="form-field">
+                 <input  id="hotdog" type="text" placeholder="Hot Dogs or Tacos?"> 
+                </div>
+                <div class="form-field">
                         <label for="secret"> Tell me a secret.</label>
                         <input id="secret" type="password"  placeholder="Make it saucy." name="secret" required><sup>*</sup> 
-                    </p>
                 </div>
                 <div>
                     <p>
@@ -89,9 +91,8 @@
                     </p>
                 </div>
                 <!-- Buttons -->
-                <p>If you are finished press submit.</p>
-                <button>Submit</button>
-                <input type="submit" name="submit" id="submit" value="Click Me">  
+                <!-- <p>If you are finished press submit.</p> -->
+                <button>Submit</button>        
             </form>
         </div>
         </main>
@@ -100,7 +101,7 @@
             class="song" 
             src="audio/Omae Wa Mou.mp3"
             controls
-            autoplay
+            
             loop
             ></audio>
         </footer>

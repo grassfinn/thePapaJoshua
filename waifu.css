@@ -6,6 +6,12 @@ html {
   background-size: cover;
   text-align: center;
   background-position: center;
+  
+}
+#myCarousel{
+  border-style: solid;
+  border-width: 5px;
+  
 }
 .container {
   max-width: 800px;
