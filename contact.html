@@ -26,15 +26,18 @@
             <p>is a required field <sup>*</sup> </p>
             <!-- Name -->
             <!-- modify this form HTML and place wherever you want your form -->
-            <form
+            <!-- Form spree
             action="https://formspree.io/f/xpzbwndr"
+            method="POST" -->
+            <form
+            action=""
             method="POST"
             >
             <!-- your other form fields go here -->
                <input type="text" placeholder="Name"  name="name" required><sup>*</sup>
                 <!-- email -->
                 <div class="form-field">
-                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="email" name="_replyto" id="email" placeholder="Email">
                 </div>
                 <!-- Range -->
                 <div class="form-field">
@@ -98,18 +101,19 @@
                 <!-- Buttons -->
                 <!-- <p>If you are finished press submit.</p> -->
                 <button>Submit</button>        
-            <button type="submit">Send</button>
+                <button type="submit">Send</button>
             </form>
         </div>
         </main>
         <footer>
-            <audio 
+        <audio 
             class="song" 
             src="audio/Omae Wa Mou.mp3"
             controls
             autoplay
             loop
-            ></audio>
+            >
+        </audio>
         </footer>
         <script src="app.js"></script>
     </body>
