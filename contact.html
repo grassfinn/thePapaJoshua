@@ -25,8 +25,13 @@
             <h1>Contact me</h1>
             <p>is a required field <sup>*</sup> </p>
             <!-- Name -->
-            <form action="https://formspree.io/cmjpktmsehgonctcrv@kvhrw.com" method="post">
-                <input type="text" placeholder="Name"  name="name" required><sup>*</sup>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form
+            action="https://formspree.io/f/xpzbwndr"
+            method="POST"
+            >
+            <!-- your other form fields go here -->
+               <input type="text" placeholder="Name"  name="name" required><sup>*</sup>
                 <!-- email -->
                 <div class="form-field">
                         <input type="email" name="email" id="email" placeholder="Email">
@@ -93,6 +98,7 @@
                 <!-- Buttons -->
                 <!-- <p>If you are finished press submit.</p> -->
                 <button>Submit</button>        
+            <button type="submit">Send</button>
             </form>
         </div>
         </main>
@@ -101,7 +107,7 @@
             class="song" 
             src="audio/Omae Wa Mou.mp3"
             controls
-            
+            autoplay
             loop
             ></audio>
         </footer>
